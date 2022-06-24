@@ -8,12 +8,14 @@ import {
     StatusBar, 
     Text,
     Pressable,
-    Linking
+    Linking,
 } from "react-native";
 
 const colorGitHub = '#010409';
 const colorFontGitHub = '#C9D1D9';
 const colorDarkFontGitHub = '#4F565E';
+const colorGridVerdeEscuro = '#006E30';
+const colorGrridVerdeClaro = '#37D453';
 
 const imgProfileGitHub = 
     'https://avatars.githubusercontent.com/u/80922120?v=4';
@@ -55,7 +57,92 @@ const App = () => {
                     style={[style.defaultText,style.description]}>
                     Estudante na área de Programação
                 </Text>
+                <View style={style.grid}>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
 
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeClaro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                    <View style={style.cuboVerdeEscuro}></View>
+                </View>
+                
                 <Pressable onPress={handlePressGoToGitHub}>
                     <View style={style.button}>
                         <Text style={[style.defaultText,style.textButton]}>
@@ -113,5 +200,28 @@ const style = StyleSheet.create({
     textButton:{
         fontWeight: 'bold',
         fontSize: 16,
+    },
+    grid:{
+        marginTop: 10,
+        marginBottom: 5,
+        width: 200,
+        height: 110,
+        justifyContent: 'space-between',
+        alignContent: 'space-between',
+        flexWrap: 'wrap',
+        flexDirection: 'row',
+        padding: 2.5,
+    },
+    cuboVerdeEscuro:{
+        backgroundColor: colorGridVerdeEscuro,
+        borderRadius: 4.3,
+        width: 14,
+        height: 14,
+    },
+    cuboVerdeClaro:{
+        backgroundColor: colorGrridVerdeClaro,
+        borderRadius: 4.3,
+        width: 14,
+        height: 14,
     },
 });
