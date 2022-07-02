@@ -34,3 +34,9 @@
      - Linking API
      - Add código nativo no AndroidManifest.xml para abrir link
   
+  -------------------------------------------------------------------
+  
+  Imagem do app após acréscimo do desafio do professor.
+  
+  ![image](https://user-images.githubusercontent.com/80922120/176981730-340ce565-1c6c-4d31-abc3-bdfb91181b5d.png)
+
